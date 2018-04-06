@@ -1,0 +1,106 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.dropdown-menu {
+  padding: 10px;
+}
+
+.page-body {
+  margin-top: 80px;
+}
+
+#mainCarousel {
+  width: 100%;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.carousel-caption {
+  text-shadow: black 0.15em 0.15em 0.15em;
+}
+
+.slider-size {
+  height: 400px; 
+}
+
+.jumbo-image {
+  width: 100%;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 400px;
+  text-align: center;
+  color: #f0f0f0;
+  text-shadow: black 0.15em 0.15em 0.15em;
+}
+
+.jumbo-center {
+  background-position: center;
+}
+
+.jumbo-top {
+  background-position: top;
+}
+
+.images-row {
+  margin-top: 40px;
+}
+
+.container .jumbo-image h2 {
+  padding-top: 300px !important;
+}
+
+article {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+article h1, h3 {
+  color: #3E5C6E;
+}
+
+.paragraph-subpage {
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.left-headings {
+  text-align: left;
+}
+
+img {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+img:hover {
+-webkit-filter: blur(2px);
+}
+
+.panel-footer {
+  background-color: #3E5C6E;
+  color: #f0f0f0;
+  margin-top: 80px;
+}
+
+/*-- MAP --*/
+
+a.skiplink {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+a.skiplink:focus {
+  clip: auto;
+  height: auto;
+  width: auto;
+  background-color: #fff;
+  padding: 0.3em;
+}
+#map:focus {
+  outline: #4A74A8 solid 0.15em;
+}
